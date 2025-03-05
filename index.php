@@ -59,41 +59,41 @@
   <!-- Main -->
   <main class="main">
     <div class="main-content container">
-      <h2><?php echo $nav_links[0]["title"]; ?></h2>
-      <div class="content-wrapper row">
+      <h2 class="h2 display-4 fw-semibold pb-5"><?php echo $nav_links[0]["title"]; ?></h2>
+      <div class="d-flex content-wrapper gap-5">
         <!-- Card 1 -->
-        <div class="benefit-card col">
-          <div class="benefit-card-icon col">
+        <div class="d-block shadow-lg border-opacity-10 border-secondary-subtle rounded col">
+          <div class="d-flex justify-content-center col py-4 px-2">
             <?php echo $benefits[0]["benefits_icon"]; ?>
           </div>
-          <h3 class="col">
+          <h3 class="text-center pt-2">
             <?php echo $benefits[0]["benefits_heading"]; ?>
           </h3>
-          <p class="col">
+          <p class="pb-4 px-4 text-center">
             <?php echo $benefits[0]["benefits_paragraph"]; ?>
           </p>
         </div>
         <!-- Card 2 -->
-        <div class="benefit-card col">
-          <div class="benefit-card-icon">
+        <div class="d-block shadow-lg border-secondary-subtle rounded col">
+          <div class="d-flex justify-content-center col py-4 px-2">
             <?php echo $benefits[1]["benefits_icon"]; ?>
           </div>
-          <h3>
+          <h3 class="text-center pt-2">
             <?php echo $benefits[1]["benefits_heading"]; ?>
           </h3>
-          <p>
+          <p class="pb-4 px-4 text-center">
             <?php echo $benefits[1]["benefits_paragraph"]; ?>
           </p>
         </div>
         <!-- Card 3 -->
-        <div class="benefit-card col">
-          <div class="benefit-card-icon">
+        <div class="d-block shadow-lg border-secondary-subtle rounded col">
+          <div class="d-flex justify-content-center col py-4 px-2">
             <?php echo $benefits[2]["benefits_icon"]; ?>
           </div>
-          <h3>
+          <h3 class="text-center pt-2">
             <?php echo $benefits[2]["benefits_heading"]; ?>
           </h3>
-          <p>
+          <p class="pb-4 px-4 text-center">
             <?php echo $benefits[2]["benefits_paragraph"]; ?>
           </p>
         </div>

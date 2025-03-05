@@ -178,20 +178,18 @@ p {
   object-position: top;
 }
 
-.benefit-card-icon {
-  display: block;
-  /* width: 100%;
-  max-width: 8rem; */
-  height: 4rem;
-
-  padding: 1rem;
-  border: 1px solid red;
+.main {
+  padding: 10rem 0 !important;
 }
 
-.benefit-card h3 {
-  border: 1px solid red;
+/* Icons */
+svg.fa-4x {
+  height: 4rem;
+}
+
+/* Typography */
+h3 {
   line-height: 1.5;
-  margin-bottom: 1.5rem;
 }
 
 .benefit-card p {
