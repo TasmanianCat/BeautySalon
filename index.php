@@ -60,7 +60,7 @@
     <div class="container-fluid header__hero px-3">
       <div class="container header__hero-content-wrapper rounded">
         <div class="header__hero-content p-4 rounded">
-          <h1 class="text-center text-warning">Подчеркиваем вашу красоту</h1>
+          <h1 class="text-center">Подчеркиваем вашу красоту</h1>
           <p class="text-center">Салон-парикмахерская "Татьяна" предлагает вам широкий спектр услуг высокого качества, которые помогут вашим ногтям, волосам, макияжу, бровям и ресницам выглядеть идеально!</p>
           <button type="button" class="btn btn-warning btn-lg text-uppercase fw-semibold d-block mt-4 mb-2 mx-auto">Записаться</button>
         </div>
