@@ -2,19 +2,19 @@
   $nav_links = array(
     array(
       "slug" => "index.php",
-      "title" => "Home"
+      "title" => "Главная"
     ),
     array(
       "slug" => "team.php",
-      "title" => "Team"
+      "title" => "Мастера"
     ),
     array(
       "slug" => "services.php",
-      "title" => "Services"
+      "title" => "Услуги"
     ),
     array(
       "slug" => "contact.php",
-      "title" => "Contact"
+      "title" => "Контакты"
     ),
   );
 ?>
