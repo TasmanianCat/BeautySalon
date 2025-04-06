@@ -241,6 +241,17 @@ p {
   }
 }
 
+/* Modal */
+body.modal-open {
+  overflow: auto !important;
+  padding-right: 0px !important;
+}
+
+.social-media-icon-modal {
+  width: 2rem;
+  padding-right: 0.5rem;
+}
+
 /* Gallery */
 .bg-dark--gradient {
   /* background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),

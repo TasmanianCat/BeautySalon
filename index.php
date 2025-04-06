@@ -4,6 +4,9 @@
 <?php
   include("./includes/benefits-array.php");
 ?>
+<?php
+  include("./includes/booking.php");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,9 +63,31 @@
     <div class="container-fluid header__hero px-3">
       <div class="container header__hero-content-wrapper rounded">
         <div class="header__hero-content p-4 rounded">
-          <h1 class="text-center">Подчеркиваем вашу красоту</h1>
-          <p class="text-center">Салон-парикмахерская "Татьяна" предлагает вам широкий спектр услуг высокого качества, которые помогут вашим ногтям, волосам, макияжу, бровям и ресницам выглядеть идеально!</p>
-          <button type="button" class="btn btn-warning btn-lg text-uppercase fw-semibold d-block mt-4 mb-2 mx-auto">Записаться</button>
+          <h1 class="text-center text-danger fw-bold">Подчеркиваем вашу красоту</h1>
+          <p class="text-center fw-medium fs-4 text-dark">Салон-парикмахерская "Татьяна" предлагает вам широкий спектр услуг высокого качества, которые помогут вашим ногтям, волосам, макияжу, бровям и ресницам выглядеть идеально!</p>
+          <button type="button" class="btn btn-warning btn-lg text-uppercase text-dark fw-semibold d-block mt-4 mb-2 mx-auto" data-bs-toggle="modal" data-bs-target="#bookingModal">Записаться</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title fs-4" id="bookingModalLabel">Выбирите способ</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- WhatsApp -->
+            <a class="fs-5 fw-light d-flex align-items-center mb-3 py-0" href="<?php echo $contacts["whatsapp_url"]; ?>"><img class="social-media-icon-modal" src="./assets/img/icons/whatsapp.svg" alt="WhatsApp"><span class="my-auto h-100 text-secondary">Написать в WhatsApp</span></a>
+            <!-- Telegram -->
+            <a class="fs-5 fw-light d-flex align-items-center mb-3 py-0" href="<?php echo $contacts["telegram_url"]; ?>"><img class="social-media-icon-modal" src="./assets/img/icons/telegram.svg" alt="Telegram"><span class="my-auto h-100 text-secondary">Написать в Telegram</span></a>
+            <!-- Phone -->
+            <a class="fs-5 fw-light d-flex align-items-center py-0" href="<?php echo $contacts["phone_url"]; ?>"><img class="social-media-icon-modal" src="./assets/img/icons/call.svg" alt="Phone Call"><span class="my-auto h-100 text-secondary">Позвонить на телефон</span></a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Отмена</button>
+          </div>
         </div>
       </div>
     </div>
@@ -238,7 +263,7 @@
       <div class="container py-4 mb-5">
         <h2 class="text-center text-warning">Нас легко найти</h2>
         <address class="text-white text-center fs-5 m-0">Наш адрес: г. Тольятти, ул. Фрунзе, дом 35.</address>
-        <button type="button" class="btn btn-warning btn-lg text-uppercase fw-semibold d-block mx-auto mt-4">Записаться</button>
+        <button type="button" class="btn btn-warning btn-lg text-uppercase text-dark fw-semibold d-block mt-4 mb-2 mx-auto" data-bs-toggle="modal" data-bs-target="#bookingModal">Записаться</button>
       </div>
       <!-- Map -->
       <div class="container-fluid p-0">

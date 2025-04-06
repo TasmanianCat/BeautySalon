@@ -15,7 +15,7 @@
           <img src=\"./assets/img/slider/6.jpg\" class=\"d-block w-100\" alt=\"Слайдер\">
         </div>
         <div class=\"carousel-item\">
-          <img src=\"./assets/img/slider/7.jpg\" class=\"d-block w-100\" alt=\"Слайдер\">
+          <img src=\"./assets/img/slider/9.jpg\" class=\"d-block w-100\" alt=\"Слайдер\">
         </div>
         <div class=\"carousel-item\">
           <img src=\"./assets/img/slider/4.jpg\" class=\"d-block w-100\" alt=\"Слайдер\">
