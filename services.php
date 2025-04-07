@@ -53,22 +53,23 @@
         <div class="header__sub-hero-content-img-wrapper mb-3">
           <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/team/team-2.jpg" alt="Services">
         </div>
-        <h1 class="text-center text-danger fw-bold">Преданные своему делу специалисты</h1>
-        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике позаботятся о вашей внешности</p>
+        <h1 class="text-center text-danger fw-bold">Услуги наших специалистов</h1>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Полный спектр парикмахерских и косметических услуг</p>
       </div>
     </div>
   </header>
   <!-- Main -->
   <main class="main">
-    <div class="main-content container">
-      <h2><?php echo $nav_links[2]["title"]; ?></h2>
-      <div class="content-wrapper row">
-        
+    <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
+      <div class="container d-block mx-auto py-5">
+        <div class="main-content-description d-block">
+          <h2 class="text-center"><?php echo $nav_links[2]["title"]; ?></h2>
+        </div>
       </div>
     </div>
   </main>
   <!-- Footer -->
-  <footer class="container-fluid d-block py-4 bg-dark px-1">
+  <footer class="container-fluid d-block py-4 bg-dark px-1 mt-auto">
     <div class="container d-block mx-auto">
       <p class="fw-light text-white-50 text-center mb-0"><?php include("./includes/footer.php"); ?></p>
     </div>

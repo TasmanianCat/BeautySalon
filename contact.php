@@ -51,43 +51,47 @@
     <div class="header__sub-hero container-fluid py-5 d-block">
       <div class="header__sub-hero-content container d-flex flex-column align-items-center justify-content-center py-5">
         <div class="header__sub-hero-content-img-wrapper mb-3">
-          <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/team/team-2.jpg" alt="Contacts">
+          <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/contact/contact.jpg" alt="Contacts">
         </div>
-        <h1 class="text-center text-danger fw-bold">Преданные своему делу специалисты</h1>
-        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике позаботятся о вашей внешности</p>
+        <h1 class="text-center text-danger fw-bold">Оставайтесь с нами на связи</h1>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Напишите нам ваш отзыв или простое обращение</p>
       </div>
     </div>
   </header>
   <!-- Main -->
   <main class="main">
-    <div class="main-content container">
-      <h2><?php echo $nav_links[3]["title"]; ?></h2>
-      <div class="content-wrapper">
-        <h3>Get in touch with us!</h3>
-        <!-- Contact Form -->
-        <div class="form-wrapper">
-          <form method="post" action="" id="form">
+    <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
+      <div class="container d-block mx-auto py-5">
+        <div class="main-content-description d-block">
+          <h2 class="text-center"><?php echo $nav_links[3]["title"];?></h2>
+          <div class="content-wrapper">
+            <h3>Get in touch with us!</h3>
+            <!-- Contact Form -->
+            <div class="form-wrapper">
+              <form method="post" action="" id="form">
 
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
 
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
 
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message"></textarea>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
 
-            <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-            <label for="subscribe">Subscribe to newsletter</label>
-            <input type="submit" name="submit-button" value="Send Message">
-            
-          </form>
+                <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                <label for="subscribe">Subscribe to newsletter</label>
+                <input type="submit" name="submit-button" value="Send Message">
+                
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </main>
   <!-- Footer -->
-  <footer class="container-fluid d-block py-4 bg-dark px-1">
+  <footer class="container-fluid d-block py-4 bg-dark px-1 mt-auto">
     <div class="container d-block mx-auto">
       <p class="fw-light text-white-50 text-center mb-0"><?php include("./includes/footer.php"); ?></p>
     </div>

@@ -257,7 +257,7 @@
     </div>
   </main>
   <!-- Footer -->
-  <footer class="container-fluid d-block py-4 bg-dark px-1">
+  <footer class="container-fluid d-block py-4 bg-dark px-1 mt-auto">
     <div class="container d-block mx-auto">
       <p class="fw-light text-white-50 text-center mb-0"><?php include("./includes/footer.php"); ?></p>
     </div>

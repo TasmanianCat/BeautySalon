@@ -57,8 +57,8 @@
         <div class="header__sub-hero-content-img-wrapper mb-3">
           <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/team/team.jpg" alt="Team">
         </div>
-        <h1 class="text-center text-danger fw-bold">Преданные своему делу специалисты</h1>
-        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике позаботятся о вашей внешности</p>
+        <h1 class="text-center text-danger fw-bold">Преданные своему делу мастера</h1>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике профессионалы позаботятся о вашей внешности</p>
       </div>
     </div>
   </header>
@@ -112,20 +112,20 @@
           ?>
         </div>
 
-        <div class="main-content-description d-block my-5">
+        <div class="main-content-description d-block mt-5">
           <h3 class="text-center">Эксперты по волосам</h3>
           <p class="text-center mb-4">От стильных повседневных стрижек до элегантных свадебных причесок и профессионального окрашивания волос - наши опытные парикмахеры привносят креативность и точность в каждый прием. Будь то мужская, женская или детская стрижка, мы адаптируем каждую услугу в соответствии с вашим уникальным стилем.</p>
           <h3 class="text-center">Специалисты по ногтям</h3>
           <p class="text-center mb-4">Имея большой опыт в аппаратном маникюре, нанесении гель-лака и креативном дизайне ногтей, наши талантливые специалисты по ногтям здесь, чтобы придать вашим рукам безупречный и модный вид.</p>
           <h3 class="text-center">Мастера депеляции и эпиляции</h3>
           <p class="text-center mb-4">Мастера постоянно посещают мастер-классы и совершенствуют свои навыки. Всегда работают на качество и результат, а также имеют медицинское образование.</p>
-          <p class="text-center">В нашем салоне мы объединяем страсть, мастерство и новейшие методики, чтобы помочь вам выглядеть и чувствовать себя наилучшим образом!</p>
+          <p class="text-center mb-0">В нашем салоне мы объединяем страсть, мастерство и новейшие методики, чтобы помочь вам выглядеть и чувствовать себя наилучшим образом!</p>
         </div>
       </div>
     </div>
   </main>
   <!-- Footer -->
-  <footer class="container-fluid d-block py-4 bg-dark px-1">
+  <footer class="container-fluid d-block py-4 bg-dark px-1 mt-auto">
     <div class="container d-block mx-auto">
       <p class="fw-light text-white-50 text-center mb-0"><?php include("./includes/footer.php"); ?></p>
     </div>
