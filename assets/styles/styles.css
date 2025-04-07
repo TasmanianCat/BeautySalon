@@ -118,12 +118,15 @@ p {
 .header {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 100vh;
   position: relative;
 }
 
-.header::before {
+.header--home:has(.slider) {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.header--home::before {
   display: none;
   position: absolute;
   inset: 0;
@@ -140,21 +143,6 @@ p {
   background-size: cover;
   width: 100%;
 }
-
-/* .header::after {
-  content: '';
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.25) 10%,
-      transparent
-    ),
-    linear-gradient(to left, rgba(0, 0, 0, 0.25) 10%, transparent);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-} */
 
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav {
@@ -330,8 +318,8 @@ h3 {
 
 .social-media-icon {
   display: flex;
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -339,6 +327,87 @@ h3 {
 .social-media-icon-img {
   display: block;
   width: 100%;
+}
+
+/* Team Page */
+.header__sub-hero {
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  /* background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%); */
+  /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+
+  /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+  /* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */
+
+  /* background-image: linear-gradient(
+    20deg,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  ); */
+
+  /* background-image: linear-gradient(15deg, #a18cd1 0%, #fbc2eb 100%); */
+  /* background-image: linear-gradient(135deg, #30cfd0 0%, #330867 100%); */
+
+  /* background-image: linear-gradient(15deg, #09203f 0%, #537895 100%); */
+  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #6c757d 100%); */
+  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #464e56 100%); */
+
+  /* background-image: linear-gradient(
+    135deg,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+
+  background-image: linear-gradient(135deg, #f77062 0%, #fe5196 100%);
+
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+
+  background-image: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%); */
+
+  /* background-image: linear-gradient(-225deg, #a8bfff 0%, #884d80 100%); */
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  /* background-image: linear-gradient(
+    -225deg,
+    #ff057c 0%,
+    #8d0b93 50%,
+    #321575 100%
+  ); */
+}
+
+.header__sub-hero-content {
+  height: 100%;
+  min-height: 30vh;
+  margin-top: 58px;
+}
+
+.header__sub-hero-content-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 100%;
+  border: 3px solid rgba(192, 192, 192, 0.5);
+  overflow: hidden;
+}
+
+.header__sub-hero-content-img {
+  border-radius: 100%;
+}
+
+/* Background for the main content: Team, Services, Contact */
+.main-content--bg-light {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 /* Contact Form */

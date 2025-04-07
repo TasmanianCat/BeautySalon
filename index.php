@@ -26,7 +26,7 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="header">
+  <header class="header header--home">
     <!-- Navigation -->
     <div class="nav-wrapper container-fluid bg-dark px-1 fixed-top">
       <nav class="navbar navbar-expand-lg container bg-dark">
@@ -64,7 +64,7 @@
       <div class="container header__hero-content-wrapper rounded">
         <div class="header__hero-content p-4 rounded">
           <h1 class="text-center text-danger fw-bold">Подчеркиваем вашу красоту</h1>
-          <p class="text-center fw-medium fs-4 text-dark">Салон-парикмахерская "Татьяна" предлагает вам широкий спектр услуг высокого качества, которые помогут вашим ногтям, волосам, макияжу, бровям и ресницам выглядеть идеально!</p>
+          <p class="text-center fw-medium fs-4 text-dark  mb-0">Салон-парикмахерская "Татьяна" предлагает вам широкий спектр услуг высокого качества, которые помогут вашим ногтям, волосам, макияжу, бровям и ресницам выглядеть идеально!</p>
           <button type="button" class="btn btn-warning btn-lg text-uppercase text-dark fw-semibold d-block mt-4 mb-2 mx-auto" data-bs-toggle="modal" data-bs-target="#bookingModal">Записаться</button>
         </div>
       </div>
@@ -150,7 +150,7 @@
       <div class="container py-5">
         <div class="container text-center col-11">
           <h2 class="text-warning">Шагните в мир красоты и релаксации</h2>
-          <p class="text-white">От профессионального ухода за волосами до безупречных ногтей и макияжа, мы стремимся сделать так, чтобы вы чувствовали себя уверенно и сияюще.</p>
+          <p class="text-white mb-0">От профессионального ухода за волосами до безупречных ногтей и макияжа, мы стремимся сделать так, чтобы вы чувствовали себя уверенно и сияюще.</p>
         </div>
       </div>
       <div class="d-flex flex-row flex-wrap container align-content-center gap-5 mb-5 px-3">
@@ -178,9 +178,6 @@
             <!-- Feedback 1 -->
             <div class="carousel-item carousel-item--height active">
               <div class="row g-5 p-5 align-items-center justify-content-center rounded">
-                <!-- <div class="col-lg-3 align-items-center">
-                  <img src="./assets/img/home/avatar-1.jpg" class="d-block img-fluid h-auto mx-auto rounded" alt="Client">
-                </div> -->
                 <div class="col-lg-9">
                   <h3 class="text-center">Ольга</h3>
                   <?php include("./includes/stars.php"); ?>
@@ -192,9 +189,6 @@
             <!-- Feedback 2 -->
             <div class="carousel-item carousel-item--height">
               <div class="row g-5 p-5 align-items-center justify-content-center rounded">
-                <!-- <div class="col-lg-3 align-items-center">
-                  <img src="./assets/img/home/avatar-2.jpg" class="d-block img-fluid h-auto mx-auto rounded" alt="Client">
-                </div> -->
                 <div class="col-lg-9">
                   <h3 class="text-center">Станислав</h3>
                   <?php include("./includes/stars.php"); ?>
@@ -206,9 +200,6 @@
             <!-- Feedback 3 -->
             <div class="carousel-item carousel-item--height">
               <div class="row g-5 p-5 align-items-center justify-content-center rounded">
-                <!-- <div class="col-lg-3 align-items-center">
-                  <img src="./assets/img/home/avatar-4.jpg" class="d-block img-fluid h-auto mx-auto rounded" alt="Client">
-                </div> -->
                 <div class="col-lg-9">
                   <h3 class="text-center">Вероника</h3>
                   <?php include("./includes/stars.php"); ?>
@@ -220,9 +211,6 @@
             <!-- Feedback 4 -->
             <div class="carousel-item carousel-item--height">
               <div class="row g-5 p-5 align-items-center justify-content-center rounded">
-                <!-- <div class="col-lg-3 align-items-center">
-                  <img src="./assets/img/home/avatar-3.jpg" class="d-block img-fluid h-auto mx-auto rounded" alt="Client">
-                </div> -->
                 <div class="col-lg-9">
                   <h3 class="text-center">Алексей</h3>
                   <?php include("./includes/stars.php"); ?>
@@ -234,9 +222,6 @@
             <!-- Feedback 5 -->
             <div class="carousel-item carousel-item--height">
               <div class="row g-5 p-5 align-items-center justify-content-center rounded">
-                <!-- <div class="col-lg-3 align-items-center">
-                  <img src="./assets/img/home/avatar-5.jpg" class="d-block img-fluid h-auto mx-auto rounded" alt="Client">
-                </div> -->
                 <div class="col-lg-9">
                   <h3 class="text-center">Людмила</h3>
                   <?php include("./includes/stars.php"); ?>

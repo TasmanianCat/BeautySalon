@@ -21,36 +21,41 @@
   <!-- Header -->
   <header class="header">
     <!-- Navigation -->
-    <div class="nav-wrapper container-fluid bg-dark">
-    <nav class="navbar navbar-expand-lg container bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/index.php">
-          <img class="d-flex align-items-center" src="./assets/img/icons/hairdresser_beauty_hair_salon_icon-2.svg" alt="Logo">
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-        <?php include("./includes/nav.php"); ?>
+    <div class="nav-wrapper container-fluid bg-dark px-1 fixed-top">
+      <nav class="navbar navbar-expand-lg container bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.php">
+            <img class="d-flex align-items-center" src="./assets/img/icons/hairdresser_beauty_hair_salon_icon-2.svg" alt="Logo">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+          <?php include("./includes/nav.php"); ?>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </div>
-      
-    <!-- Slider -->
-    <div class="slider">
-      <?php include("./includes/slider.php"); ?>
+    <!-- Sub Hero -->
+    <div class="header__sub-hero container-fluid py-5 d-block">
+      <div class="header__sub-hero-content container d-flex flex-column align-items-center justify-content-center py-5">
+        <div class="header__sub-hero-content-img-wrapper mb-3">
+          <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/team/team-2.jpg" alt="Services">
+        </div>
+        <h1 class="text-center text-danger fw-bold">Преданные своему делу специалисты</h1>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике позаботятся о вашей внешности</p>
+      </div>
     </div>
   </header>
   <!-- Main -->
@@ -63,8 +68,10 @@
     </div>
   </main>
   <!-- Footer -->
-  <footer class="footer">
-    <?php include("./includes/footer.php"); ?>
+  <footer class="container-fluid d-block py-4 bg-dark px-1">
+    <div class="container d-block mx-auto">
+      <p class="fw-light text-white-50 text-center mb-0"><?php include("./includes/footer.php"); ?></p>
+    </div>
   </footer>
 </body>
 </html>
