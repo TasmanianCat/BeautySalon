@@ -57,8 +57,8 @@
         <div class="header__sub-hero-content-img-wrapper mb-3">
           <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/team/team.jpg" alt="Team">
         </div>
-        <h1 class="text-center text-danger fw-bold">Преданные своему делу мастера</h1>
-        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике профессионалы позаботятся о вашей внешности</p>
+        <h1 class="text-center text-danger fw-bold"><?php echo $nav_links[1]["title"]; ?></h1>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Уникальные в своем стиле и технике, преданные своему делу мастера позаботятся о вашей внешности</p>
       </div>
     </div>
   </header>
@@ -67,7 +67,7 @@
     <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
       <div class="container d-block mx-auto py-5">
         <div class="main-content-description d-block mb-5">
-          <h2 class="text-center fw-bold mb-2"><?php echo $nav_links[1]["title"]; ?></h2>
+          <!-- <h2 class="text-center fw-bold mb-2"><?php echo $nav_links[1]["title"]; ?></h2> -->
           <p class="text-center">Наша команда опытных профессионалов стремится предоставлять высококачественные услуги по уходу за внешностью и уходу за собой. Благодаря многолетнему опыту в парикмахерском деле, маникюре и дизайне ногтей мы гарантируем, что каждый клиент получит исключительный уход и последние тенденции в области красоты.</p>
         </div>
 

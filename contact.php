@@ -53,7 +53,7 @@
         <div class="header__sub-hero-content-img-wrapper mb-3">
           <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/contact/contact.jpg" alt="Contacts">
         </div>
-        <h1 class="text-center text-danger fw-bold">Оставайтесь с нами на связи</h1>
+        <h1 class="text-center text-danger fw-bold"><?php echo $nav_links[3]["title"];?></h1>
         <p class="text-center fw-medium fs-4 text-dark mb-0">Напишите нам ваш отзыв или простое обращение</p>
       </div>
     </div>
@@ -63,7 +63,6 @@
     <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
       <div class="container d-block mx-auto py-5">
         <div class="main-content-description d-block">
-          <h2 class="text-center"><?php echo $nav_links[3]["title"];?></h2>
           <div class="content-wrapper">
             <h3>Get in touch with us!</h3>
             <!-- Contact Form -->
