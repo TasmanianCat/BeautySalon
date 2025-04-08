@@ -91,7 +91,7 @@
 
                 <div class="d-block">
                   <label class="fs-5 form-label text-secondary" for="message">Текст вашего сообщения</label>
-                  <textarea class="form-control" id="message" name="message" rows="6"></textarea>
+                  <textarea class="fs-5 form-control" id="message" name="message" rows="6"></textarea>
                 </div>
 
                 <div class="form-check">

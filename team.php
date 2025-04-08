@@ -64,7 +64,7 @@
   </header>
   <!-- Main -->
   <main class="main">
-    <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
+    <div class="main-content main-content--bg-light container-fluid d-block pt-4 pb-5 px-1">
       <div class="container d-block mx-auto py-5">
         <div class="main-content-description d-block mb-5">
           <!-- <h2 class="text-center fw-bold mb-2"><?php echo $nav_links[1]["title"]; ?></h2> -->
@@ -111,15 +111,17 @@
             }
           ?>
         </div>
-
-        <div class="main-content-description d-block mt-5">
-          <h3 class="text-center">Эксперты по волосам</h3>
-          <p class="text-center mb-4">От стильных повседневных стрижек до элегантных свадебных причесок и профессионального окрашивания волос - наши опытные парикмахеры привносят креативность и точность в каждый прием. Будь то мужская, женская или детская стрижка, мы адаптируем каждую услугу в соответствии с вашим уникальным стилем.</p>
-          <h3 class="text-center">Специалисты по ногтям</h3>
-          <p class="text-center mb-4">Имея большой опыт в аппаратном маникюре, нанесении гель-лака и креативном дизайне ногтей, наши талантливые специалисты по ногтям здесь, чтобы придать вашим рукам безупречный и модный вид.</p>
-          <h3 class="text-center">Мастера депеляции и эпиляции</h3>
-          <p class="text-center mb-4">Мастера постоянно посещают мастер-классы и совершенствуют свои навыки. Всегда работают на качество и результат, а также имеют медицинское образование.</p>
-          <p class="text-center mb-0">В нашем салоне мы объединяем страсть, мастерство и новейшие методики, чтобы помочь вам выглядеть и чувствовать себя наилучшим образом!</p>
+      </div>
+    </div>
+    <div class="main-content bg-dark--gradient container-fluid d-block py-4 px-1">
+      <div class="container d-block mx-auto py-5">
+        <div class="main-content-description d-block mt-1">
+          <h3 class="text-center text-warning">Эксперты по волосам</h3>
+          <p class="text-center text-white mb-5">От стильных повседневных стрижек до элегантных свадебных причесок и профессионального окрашивания волос - наши опытные парикмахеры привносят креативность и точность в каждый прием. Будь то мужская, женская или детская стрижка, мы адаптируем каждую услугу в соответствии с вашим уникальным стилем.</p>
+          <h3 class="text-center text-warning">Специалисты по ногтям</h3>
+          <p class="text-center text-white mb-5">Имея большой опыт в аппаратном маникюре, нанесении гель-лака и креативном дизайне ногтей, наши талантливые специалисты по ногтям здесь, чтобы придать вашим рукам безупречный и модный вид.</p>
+          <h3 class="text-center text-warning">Мастера депеляции и эпиляции</h3>
+          <p class="text-center text-white mb-0">Мастера постоянно посещают мастер-классы и совершенствуют свои навыки. Всегда работают на качество и результат, а также имеют медицинское образование.</p>
         </div>
       </div>
     </div>
