@@ -242,37 +242,16 @@ body.modal-open {
 
 /* Gallery */
 .bg-dark--gradient {
-  /* background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
-    linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(0, 0, 0, 0.25) 200%
-    );
-  background-blend-mode: multiply; */
-  /* background: linear-gradient(
-      to bottom,
-      #160039fc 0%,
-      #160323f5 40%,
-      #010016c9 150%
-    ),
-    linear-gradient(to top, rgb(207 186 208) 0%, rgba(0, 0, 0, 0.25) 200%);
-  background-blend-mode: multiply; */
-  /* background-image: linear-gradient(15deg, #09203f 0%, #537895 100%); */
-  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #6c757d 100%); */
-  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #464e56 100%); */
   background-image: linear-gradient(15deg, #3d3e43 0%, #2a455be0 100%);
 }
 
 .bg-light--gradient {
-  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to top,
     #dad4ec 0%,
     #dad4ec 1%,
     #f3e7e9 100%
-  ); */
+  );
 }
 
 /* Carousels */
@@ -331,55 +310,7 @@ h3 {
 
 /* Team Page */
 .header__sub-hero {
-  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
-  /* background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%); */
-  /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
-
-  /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
-  /* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */
-
-  /* background-image: linear-gradient(
-    20deg,
-    #fdcbf1 0%,
-    #fdcbf1 1%,
-    #e6dee9 100%
-  ); */
-
-  /* background-image: linear-gradient(15deg, #a18cd1 0%, #fbc2eb 100%); */
-  /* background-image: linear-gradient(135deg, #30cfd0 0%, #330867 100%); */
-
-  /* background-image: linear-gradient(15deg, #09203f 0%, #537895 100%); */
-  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #6c757d 100%); */
-  /* background-image: linear-gradient(15deg, #1e3435ed 0%, #464e56 100%); */
-
-  /* background-image: linear-gradient(
-    135deg,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
-  );
-
-  background-image: linear-gradient(135deg, #f77062 0%, #fe5196 100%);
-
-  background-image: linear-gradient(
-    to top,
-    #dad4ec 0%,
-    #dad4ec 1%,
-    #f3e7e9 100%
-  );
-
-  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
-
-  background-image: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%); */
-
-  /* background-image: linear-gradient(-225deg, #a8bfff 0%, #884d80 100%); */
   background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
-  /* background-image: linear-gradient(
-    -225deg,
-    #ff057c 0%,
-    #8d0b93 50%,
-    #321575 100%
-  ); */
 }
 
 .header__sub-hero-content {
@@ -409,8 +340,10 @@ h3 {
 
 /* Background for the main content: Team, Services, Contact */
 .main-content--bg-light {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.form-wrapper--bg-light {
   background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 

@@ -153,7 +153,7 @@
           <p class="text-white mb-0">От профессионального ухода за волосами до безупречных ногтей и макияжа, мы стремимся сделать так, чтобы вы чувствовали себя уверенно и сияюще.</p>
         </div>
       </div>
-      <div class="d-flex flex-row flex-wrap container align-content-center gap-5 mb-5 px-3">
+      <div class="d-flex flex-row flex-wrap container align-content-center gap-5 mb-5 px-3 pb-3">
         <div class="d-flex flex-column flex-grow-1 col-lg-2">
           <img class="d-block img-fluid rounded" src="./assets/img/home/client-8.jpg" alt="Client">
         </div>
@@ -247,7 +247,7 @@
     <div class="contaner-fluid bg-dark--gradient px-0 pt-5 pb-0">
       <div class="container py-4 mb-5">
         <h2 class="text-center text-warning">Нас легко найти</h2>
-        <address class="text-white text-center fs-5 m-0">Наш адрес: г. Тольятти, ул. Фрунзе, дом 35.</address>
+        <address class="text-white text-center fs-5 m-0">Наш адрес: 445028, г. Тольятти, Автозаводский район, ул. Фрунзе, д. 35, под. 3.</address>
         <button type="button" class="btn btn-warning btn-lg text-uppercase text-dark fw-semibold d-block mt-4 mb-2 mx-auto" data-bs-toggle="modal" data-bs-target="#bookingModal">Записаться</button>
       </div>
       <!-- Map -->

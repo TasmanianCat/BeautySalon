@@ -54,37 +54,56 @@
           <img class="header__sub-hero-content-img container-fluid d-block  m-0 p-0" src="./assets/img/contact/contact.jpg" alt="Contacts">
         </div>
         <h1 class="text-center text-danger fw-bold"><?php echo $nav_links[3]["title"];?></h1>
-        <p class="text-center fw-medium fs-4 text-dark mb-0">Напишите нам ваш отзыв или простое обращение</p>
+        <p class="text-center fw-medium fs-4 text-dark mb-0">Оставайтесь на связи с нами</p>
       </div>
     </div>
   </header>
   <!-- Main -->
-  <main class="main">
-    <div class="main-content main-content--bg-light container-fluid d-block py-4 px-1">
+  <main class="main bg-light--gradient">
+    <div class="main-content container-fluid d-block py-4 px-1">
       <div class="container d-block mx-auto py-5">
         <div class="main-content-description d-block">
-          <div class="content-wrapper">
-            <h3>Get in touch with us!</h3>
-            <!-- Contact Form -->
+          <!-- Contact Form -->
             <div class="form-wrapper">
+              <h2 class="text-center">Напишите нам ваш отзыв или задайте вопрос</h2>
               <form method="post" action="" id="form">
+                <div class="d-flex flex-wrap gap-4">
+                  <div class="flex-grow-1 col-lg-2">
+                    <label class="d-block fs-5 form-label text-secondary" for="name">Ваше имя</label>
+                    <input class="form-control fs-5" type="text" id="name" name="name">
+                  </div>
+                  <div class="flex-grow-1 col-lg-2">
+                    <label class="d-block fs-5 form-label text-secondary" for="email">Ваш e-mail-адрес</label>
+                    <input class="form-control fs-5" type="email" id="email" name="email">
+                  </div>
+                </div>
 
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name">
+                <div class="d-flex flex-wrap gap-4">
+                  <div class="flex-grow-1 col-lg-2">
+                    <label class="d-block fs-5 form-label text-secondary" for="tel">Ваш номер телефона</label>
+                    <input class="form-control fs-5" type="tel" id="tel" name="tel">
+                  </div>
+                  <div class="flex-grow-1 col-lg-2">
+                    <label class="d-block fs-5 form-label text-secondary" for="topic">Тема письма</label>
+                    <input class="form-control fs-5" type="text" id="topic" name="topic">
+                  </div>
+                </div>
 
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email">
+                <div class="d-block">
+                  <label class="fs-5 form-label text-secondary" for="message">Текст вашего сообщения</label>
+                  <textarea class="form-control" id="message" name="message" rows="6"></textarea>
+                </div>
 
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message"></textarea>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                  <label class="form-check-label fs-6 text-secondary" for="subscribe">Оформить подписку, чтобы получать уведомления о скидках и спецпредложениях.</label>
+                </div>
 
-                <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-                <label for="subscribe">Subscribe to newsletter</label>
-                <input type="submit" name="submit-button" value="Send Message">
-                
+                <div class="d-block">
+                  <button type="submit" class="btn btn-warning btn-lg text-uppercase text-dark fw-semibold d-block mt-4 mb-2 mx-auto">Отправить письмо</button>
+                </div>
               </form>
             </div>
-          </div>
         </div>
       </div>
     </div>
